@@ -3,7 +3,8 @@
 
 ## Data and Annotation
 The BMDS Dataset contains texts, annotations, and metadeta for detective stories published between 1890–1920. 
-* The stories are provided in plain text and with Dublin core metadata for stories and authors. 
+* The stories are provided in plain text
+* Metadata is provided for stories and authors
 * Each story is annotated for 61 categories related ot types of crimes, clues, and evidence represented
 
 Story-level annotations and metadata can be found in the `BMDS_story_annotations.csv` file. This file includes a unique `Story Code` for each story, which corresponds to the name of the plain text version of the story, which can be found in the `texts/` folder. It also includes an `Author Code` for each story (two in the case of co-authored stories), which correspond to the author-level metadata in the `BMDS_author_metadata.csv` file.
@@ -19,8 +20,8 @@ The `BMDS_story_annotations.csv` contains the following columns, all of which ar
 * `Story Code`
 
 #### Annotations
-* `Annotator #1 Code`: unique code of first BMDS annotator who produced the annotations
-* `Annotator #2 Code`: unique code of second BMDS annotator who produced the annotations
+* `Annotator #1 Code`
+* `Annotator #2 Code`
 * `Story Title`
 * `Plot Summary`
 * `Content warnings`
@@ -84,6 +85,7 @@ The `BMDS_story_annotations.csv` contains the following columns, all of which ar
 * `Format of First Publication (Journal or Book)`
 * `Name of Journal or Title of Book`
 
+**Note**: `BMDS_story_annotations.csv` contains non-ASCII Unicode characters such as `→`, `“` and `”`.
 
 The `BMDS_author_metadata.csv` file contains the following columns:
 * `Author Code`: Corresponds to `Author Code` field in `BMDS_story_annotations.csv`

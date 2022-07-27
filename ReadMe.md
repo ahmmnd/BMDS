@@ -17,7 +17,7 @@ The full text of the annotation guidelines that were used to prepare this datase
 ### Data Description
 
 The `BMDS_story_annotations.csv` contains the following columns, all of which are defined the Annotation Guidelines linked above.
-* `Story Code`
+* `Story Code`: corresponds to full text file (`[Story Code].txt`) in `texts/` subfolder.
 
 #### Annotations
 * `Annotator #1 Code`
